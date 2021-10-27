@@ -9,11 +9,11 @@
 html {
   min-height: 100%;
   background: rgb(212,253,255);
-  background: linear-gradient(239deg, rgb(212, 232, 255) 0%, rgb(176, 213, 255) 30%, rgb(117, 163, 216) 100%);
+  background: linear-gradient(239deg, rgb(255, 212, 212) 0%, rgb(176, 213, 255) 30%, rgb(117, 163, 216) 100%);
 }
 
 body {
-  font-family: 'Fira Code', monospace;
+  font-family: Helvetica, sans-serif;
   font-size: 17px;
   letter-spacing: 2px;
 }
@@ -27,6 +27,10 @@ header, main, footer {
 
 header {
   margin-top: 50px;
+}
+
+main {
+  margin: 40px 0 80px;
 }
 
 @keyframes fadeIn {
@@ -99,8 +103,7 @@ a:hover {
   text-align: center;
   color: azure;
   background-color: #000;
-  padding: 4px;
-  margin: 100px 0;
+  padding: 10px;
   border-radius: 2px;
 }
 
